@@ -1,0 +1,18 @@
+{
+  "profiles": {
+    "Server": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "entryPoint": "Server"
+      }
+    },
+    "Generator": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "targetHostName": "MyWebStudio.com",
+        "outputDirectory": "./MyWebStudio.com",
+        "entryPoint": "Generator"
+      }
+    }
+  }
+}
